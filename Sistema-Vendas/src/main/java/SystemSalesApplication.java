@@ -11,7 +11,7 @@ public class SystemSalesApplication extends Application {
     public void start(Stage stage) throws Exception {
 
         FXMLLoader loader = new FXMLLoader(
-                getClass().getResource("/telaInicial.fxml")
+                getClass().getResource("/src/main/resources/views/home.fxml")
         );
 
         Scene scene = new Scene(loader.load());
